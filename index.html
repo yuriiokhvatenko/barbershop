@@ -21,7 +21,7 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container nav-container">
         <h2 hidden>header navigation</h2>
         <nav class="navigation">
           <a href="./index.html"><img src="./icons/logo.svg" alt="logo" width="68" height="55" class="logo"/></a>
@@ -42,21 +42,27 @@
 
 
     <section class="hero section">
-      <div class="container">
-        <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
-        <h1 class="hero-title">BarberShop</h1>
-        <p class="hero-undertitle">
-          We are experts in trendy men’s haircuts. We work quickly, carefully and
-          with style.
-        </p>
-        <ul>
-          <li><button type="button" class="hero-btn back btn">Back</button></li>
-          <li><button type="button" class="hero-btn forward btn">Forward</button></li>
-        </ul>
-        <ul class="hero-side-list">
-          <li><a href="" class="hero-side-link">Instagram</a></li>
-          <li><a href="" class="hero-side-link">Youtube</a></li>
-        </ul>
+      <div class="hero-container container">
+        <div class="hero-side-block">
+          <ul class="hero-side-list">
+            <li class="hero-side-item"><a href="" class="hero-side-link">Instagram</a></li>
+            <li class="hero-side-item"><a href="" class="hero-side-link">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="hero-slider">
+          <div class="hero-descr">
+            <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title">BarberShop</h1>
+            <p class="hero-undertitle">
+              We are experts in trendy men’s haircuts. We work quickly, carefully and
+              with style.
+            </p>
+          </div>
+          <ul>
+            <li><button type="button" class="hero-btn back btn">Back</button></li>
+            <li><button type="button" class="hero-btn forward btn">Forward</button></li>
+          </ul>
+        </div>
       </div>
     </section>
 

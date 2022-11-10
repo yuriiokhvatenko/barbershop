@@ -39,13 +39,12 @@ ul {
 }
 
 body {
-    padding-top: 40px;
     font-family: var(--primary-font);
     color: #555555;
 }
 a {
     text-decoration: none;
-    color: var(--primary-title-color)
+    color: var(--primary-title-color);
 }
 
 .visually-hidden {
@@ -77,18 +76,22 @@ a {
 }
 
 /* HEADER */
+.header {
+    position: fixed;
+    width: 100%;
+}
+
 .logo {
     margin-right: 131px;
 
     width: 68px;
     height: 55px;
 }
+.nav-container {
+    position: relative;
+}
 .navigation {
     display: flex;
-    
-    background-color: rgba(49, 48, 48, 0.5);
-
-    outline: solid red 2px;
 }
 
 .nav-main-list {
@@ -143,9 +146,65 @@ a {
 
 
 /* Hero */
-.section.hero {
-    background-color: rgba(49, 48, 48, 0.9);
+.hero-slider {
+    display: flex;
+    width: 1070px;
+    height: 680px;
+
+    padding-top: 281px;
+    padding-right: 526px;
+    padding-bottom: 199px;
+    padding-left: 100px;
+
+    background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.hero-side-block {
+    width: 100px;
+    display: flex;
+    background-color: #fff;
+    align-items: flex-end;
+}
+
+.hero-side-list {
+    width: 100%;
+    display: flex;
+    outline: green 2px solid;
+    transform-origin: top left;
+    transform: rotate(270deg);
+    padding-top: 82px;
+    padding-bottom: 58px;
+}
+
+.hero-side-item:not(:last-child) {
+margin-right: 40px;
+}
+
+.hero-side-link {
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    letter-spacing: 0.2em;
+    color: red;
+    
+}
+
+.section.hero {
+    /* background-color: rgba(49, 48, 48, 0.9); */
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-descr {
+    width: 444px;
+    height: 200px;
+}
+
 .hero-uppertitle {
     font-weight: 600;
     font-size: 11px;
@@ -170,15 +229,6 @@ a {
     line-height: calc(30 / 18);
     letter-spacing: 0.02em;
     color: #9DA4BD;
-}
-
-.hero-side-link {
-
-    font-weight: 600;
-    font-size: 11px;
-    line-height: calc(15 / 11);
-    letter-spacing: 0.2em;
-    color: var(--primary-title-color);
 }
 
 .hero-btn {
