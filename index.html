@@ -23,49 +23,49 @@
     <header class="header">
       <div class="container">
         <h2 hidden>header navigation</h2>
-        <div class="navigation">
-          <img src="./icons/logo.svg" alt="logo" width="69" height="55" class="logo-"/>
-          <ul class="nav-list">
-            <li><a href="">About</a></li>
-            <li><a href="">Services and prices</a></li>
-            <li><a href="">Barbers</a></li>
-            <li><a href="">Contacts</a></li>
-          </ul>
-          <ul class="nav-contact-list">
-            <li><a href="tel:055555555">+38 044 111 11 11</a></li>
-            <li><button type="button">Online-booking</button></li>
-          </ul>
-        </div>
+        <nav class="navigation">
+          <a href="./index.html"><img src="./icons/logo.svg" alt="logo" width="68" height="55" class="logo"/></a>
+            <ul class="nav-main-list">
+              <li class="nav-list-ellement"><a href="" class="nav-link link">About</a></li>
+              <li class="nav-list-ellement"><a href="" class="nav-link link">Services and prices</a></li>
+              <li class="nav-list-ellement"><a href="" class="nav-link link">Barbers</a></li>
+              <li class="nav-list-ellement"><a href="" class="nav-link link">Contacts</a></li>
+            </ul>
+            <ul class="nav-contact-list">
+              <li class="nav-contact-ellement"><a href="tel:055555555" class="nav-link link">+38 044 111 11 11</a></li>
+              <li class="nav-contact-ellement"><button type="button" class="nav-btn btn">Online-booking</button></li>
+            </ul>
+          </nav>
       </div>
     </header>
 
 
 
-    <section class="hero">
+    <section class="hero section">
       <div class="container">
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Youtube</a></li>
-        </ul>
-        <p>A hair salon for men in Kyiv</p>
-        <h1>BarberShop</h1>
-        <p>
+        <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-undertitle">
           We are experts in trendy men’s haircuts. We work quickly, carefully and
           with style.
         </p>
         <ul>
-          <li><button type="button">Back</button></li>
-          <li><button type="button">Forward</button></li>
+          <li><button type="button" class="hero-btn back btn">Back</button></li>
+          <li><button type="button" class="hero-btn forward btn">Forward</button></li>
+        </ul>
+        <ul class="hero-side-list">
+          <li><a href="" class="hero-side-link">Instagram</a></li>
+          <li><a href="" class="hero-side-link">Youtube</a></li>
         </ul>
       </div>
     </section>
 
 
 
-    <section class="about">
+    <section class="about section">
         <div class="container">
-          <img src="./images/beard.jpg" alt="styling beard" width="270">
-          <img src="./images/head.jpg" alt="styling head" width="270">
+          <img src="./images/beard.jpg" alt="styling beard" width="270" height="445">
+          <img src="./images/head.jpg" alt="styling head" width="270" height="445">
           <p>about</p>
           <h2>Best Barbershop in your city</h2>
           <p>If you want to add more confidence to your image, you should definitely visit us.</p>
@@ -77,7 +77,7 @@
     
 
 
-    <section class="services">
+    <section class="services section">
         <div class="container">
           <p>Spend your time with the best masters</p>
           <h2>Services and prices</h2>
@@ -122,7 +122,7 @@
 
 
 
-    <section class="features">
+    <section class="features section">
          <div class="container">
            <ul>
                    <li>
@@ -151,7 +151,7 @@
 
 
 
-    <section class="team">
+    <section class="team section">
         <div class="container">
           <p>For true enjoyers of the atmosphere</p>
           <h2>Our barbers</h2>
@@ -241,7 +241,7 @@
         </div>
     </section>
 
-    <section class="galery">
+    <section class="galery section">
         <div class="container">
           <h2>Barber galery</h2>
           <p>In Latin, "barba" means "beard"</p>
@@ -254,7 +254,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
           <p>Online-booking</p>
           <button type="button">Online-booking</button>
