@@ -1,0 +1,66 @@
+/* Pallete
+Title text color #303030 
+White text color #FFFFFF
+Accent color #FF6C00
+Uppertitle hero text color rgba(157, 164, 189, 0.6);
+Undertittle hero text color #9DA4BD;
+
+
+
+*/
+
+/* ROOT General */
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --primary-text-color: #555555;
+    --scdwhite-text-color: #FFFFFF;
+    --primary-title-color: #303030; 
+    --accent-color: #FF6C00;
+
+
+}
+
+/* RESET */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: #555555;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+.navigation {
+    display: flex;
+}
+.nav-list {
+    display: flex;
+}
+.nav-contact-list {
+    display: flex;
+}
